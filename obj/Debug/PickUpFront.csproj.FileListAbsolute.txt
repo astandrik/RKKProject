@@ -1,0 +1,11 @@
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\bin\PickUpFront.dll.config
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\bin\PickUpFront.dll
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\bin\PickUpFront.pdb
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\obj\Debug\PickUpFront.dll
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\obj\Debug\PickUpFront.pdb
+C:\Users\a\Documents\Visual Studio 2013\Projects\PickUpProject\PickUpFront\bin\PickUpFront.dll.config
+C:\Users\a\Documents\Visual Studio 2013\Projects\PickUpProject\PickUpFront\bin\PickUpFront.dll
+C:\Users\a\Documents\Visual Studio 2013\Projects\PickUpProject\PickUpFront\bin\PickUpFront.pdb
+C:\Users\a\Documents\Visual Studio 2013\Projects\PickUpProject\PickUpFront\obj\Debug\PickUpFront.dll
+C:\Users\a\Documents\Visual Studio 2013\Projects\PickUpProject\PickUpFront\obj\Debug\PickUpFront.pdb
+C:\Users\a\Documents\Visual Studio 2013\Projects\PickUpProject\PickUpFront\obj\Debug\PickUpFront.csprojResolveAssemblyReference.cache
