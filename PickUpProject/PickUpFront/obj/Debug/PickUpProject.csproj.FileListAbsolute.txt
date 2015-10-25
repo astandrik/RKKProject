@@ -1,0 +1,6 @@
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\bin\PickUpProject.dll.config
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\bin\PickUpProject.dll
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\bin\PickUpProject.pdb
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\obj\Debug\PickUpProject.csprojResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\obj\Debug\PickUpProject.dll
+c:\users\a\documents\visual studio 2013\Projects\PickUpProject\PickUpProject\obj\Debug\PickUpProject.pdb
