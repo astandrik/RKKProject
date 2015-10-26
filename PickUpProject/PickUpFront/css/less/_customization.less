@@ -1,0 +1,111 @@
+﻿.login {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid #11b2b2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.content-start {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    height:100vh;
+    overflow-x: hidden
+}
+
+.content-centered {
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+
+body {
+  background: #eee;
+}
+
+
+.page-content {
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+    padding-left: 62px;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.flex-column {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.toolbar .md-default-theme {
+    background-color: #11b2b2!important;
+}
+
+.page-content.show {
+    visibility:visible;
+    animation: appear 0.2s; 
+}
+
+.nav-tabs {
+    padding-left: 47px;
+}
+
+.nav-tabs li {
+    font-size: 14px;
+}
+
+.nav-tabs li.active {
+       border-bottom: 2px solid #196666!important;
+}
+
+
+.nav-tabs li a {
+    background-color: #11b2b2!important;
+    border:none!important;
+    color:white!important;
+    padding-top: 0!important;
+}
+
+.mdDataTable-header > span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#mask {
+    width:100%; 
+    height: 100%;
+    position:absolute; 
+    z-index:100500; 
+}
+
+@keyframes appear {
+    from {opacity:0}
+    to {opacity:1}    
+}

@@ -36,7 +36,7 @@ module.exports = function (grunt) {
                 // select the files to concatenate
                 src: ['js/libs/jquery-1.11.3.min.js','js/libs/angular.min.js', 'js/libs/angular-material.min.js', 'js/libs/angular-route.min.js', 'js/libs/angular-animate.min.js',
                                     'js/libs/bootstrap.min.js', 'js/libs/md-data-table.min.js', 'js/libs/underscore-min.js', 'js/libs/angular-aria.min.js',
-                                 'js/libs/angular-material-icons.min.js', 'js/libs/angular-uuid4.min.js', 'js/libs/jquery-ui.min.js', 'js/libs/md-data-table-templates.js'],
+                                 'js/libs/angular-material-icons.min.js', 'js/libs/angular-uuid4.min.js', 'js/libs/jquery-ui.min.js'],
 
                 // the resulting JS file
                 dest: 'js/libs.min.js'

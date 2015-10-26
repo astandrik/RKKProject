@@ -59,11 +59,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\css\styles.css" />
+    <Content Include="css\css\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
     <Content Include="css\libs\angular-material.min.css" />
     <Content Include="css\libs\bootstrap-theme.min.css" />
     <Content Include="css\libs\bootstrap.min.css" />
     <Content Include="css\libs\md-data-table-style.css" />
-    <Content Include="css\styles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="gruntfile.js" />
     <Content Include="img\icons\favorite.svg" />
@@ -93,14 +96,17 @@
     <Content Include="js\libs\bootstrap.min.js" />
     <Content Include="js\libs\jquery-1.11.3.min.js" />
     <Content Include="js\libs\jquery-ui.min.js" />
-    <Content Include="js\libs\md-data-table-templates.js" />
-    <Content Include="js\libs\md-data-table.js" />
+    <Content Include="js\libs\md-data-table.min.js" />
     <Content Include="js\libs\underscore-min.js" />
     <Content Include="js\services\projects.js" />
     <Content Include="pages\login.html" />
     <Content Include="pages\newproject.html" />
     <Content Include="pages\projects.html" />
     <Content Include="pages\startpage.html" />
+    <Content Include="PickUpFront\css\css\styles.css" />
+    <Content Include="PickUpFront\css\css\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +120,16 @@
     <Content Include="README.md" />
     <Content Include="testData\projects.json" />
     <Content Include="package.json" />
+    <Content Include="css\less\_sidebar.less" />
+    <Content Include="css\less\styles.less" />
+    <Content Include="PickUpFront\css\css\styles.css.map">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
+    <Content Include="css\css\styles.css.map">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
+    <Content Include="css\less\_table.less" />
+    <Content Include="css\less\_customization.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

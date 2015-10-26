@@ -16,46 +16,15 @@
     </div>
 
     <ul class="nav sidebar-nav">
-        <li>
-            <a href="#/Projects">
-                Договоры
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                Этапы
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                Документы
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                Контрагенты
+        <li ng-repeat="button in sideBar.sections[0]">
+            <a href="{{button.href}}">
+                {{button.name}}
             </a>
         </li>
         <li class="divider"></li>
-        <li>
-            <a href="#">
-                События
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                Отчеты
-            </a>
-        </li>
-        <li class="divider"></li>
-        <li>
-            <a href="#">
-                Настройки
-            </a>
-        </li>
-        <li>
-            <a href="#/">
-                Выход
+        <li ng-repeat="button in sideBar.sections[1]">
+            <a href="{{button.href}}">
+                {{button.name}}
             </a>
         </li>
 
